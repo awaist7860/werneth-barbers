@@ -1,0 +1,24 @@
+/*This make sure that everything is set to zero*/
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/barber%20pic%20for%20background.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
